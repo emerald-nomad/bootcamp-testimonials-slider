@@ -1,0 +1,26 @@
+.container {
+
+}
+
+.pattern-bg {
+  position: absolute;
+  width: calc(100% - 2em);
+  top: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pattern-curve {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.pattern-quotes {
+  position: absolute;
+  width: 20%;
+  top: 57%;
+  left: 50%;
+  transform: translateX(-50%);
+}
