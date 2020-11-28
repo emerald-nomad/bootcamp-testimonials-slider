@@ -13,7 +13,7 @@
 
 .pattern-curve {
   position: absolute;
-  width: 100%;
+  width: 75%;
   bottom: 0;
   left: 0;
   z-index: var(--z-index-background);
@@ -21,8 +21,8 @@
 
 .pattern-quotes {
   position: absolute;
-  width: 20%;
-  top: 54%;
+  width: 15%;
+  top: 53%;
   left: 50%;
   transform: translateX(-50%);
   z-index: var(--z-index-background);
@@ -35,7 +35,9 @@
 
   &__img {
     border-radius: .15em;
+    box-shadow: 0 .5em 1em var(--color-secondary);
   }
+
 
   &__btn-container {
     position: absolute;
@@ -48,6 +50,7 @@
     width: 2.25em;
     padding: .1em .1em;
     border-radius: 2em;
+    box-shadow: 0 .25em 1em var(--color-secondary);
   }
 
   &__btn {
@@ -55,4 +58,33 @@
     border: none;
     padding: .5em;
   }
+}
+
+.testimony {
+  margin-top: 2.25em;
+  text-align: center;
+  padding: 0 .75em;
+
+
+  &__content {
+    font-size: .6rem;
+    margin-bottom: 1.25em;
+    font-weight: 300;
+    //color: var(--color-secondary);
+  }
+
+  &__author,
+  &__position {
+    font-size: .5rem;
+  }
+
+  &__author {
+    font-weight: 700;
+  }
+
+  &__position {
+    font-weight: 500;
+    color: var(--color-secondary);
+  }
+
 }
